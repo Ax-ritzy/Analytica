@@ -1,0 +1,39 @@
+{
+  "name": "faw-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "postinstall": "node scripts/patch-minimatch.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.1",
+    "lucide-react": "^0.468.0",
+    "motion": "^14.9.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
+    "@types/node": "^22.13.4",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^9.19.0",
+    "eslint-config-next": "^15.2.0",
+    "pg": "^8.23.1",
+    "tailwindcss": "^4.0.6",
+    "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.32",
+    "minimatch": "^11.0.4",
+    "zod": "^4.6.7"
+  }
+}
